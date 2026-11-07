@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Senior Backend Engineer",
+    "seniority": "senior",
+    "required_skills": [
+      "Python",
+      "Go",
+      "AWS",
+      "PostgreSQL",
+      "Docker",
+      "Kubernetes"
+    ],
+    "location": "Mumbai"
+  },
+  {
+    "title": "Junior Data Analyst (Remote)",
+    "seniority": "junior",
+    "required_skills": [
+      "SQL",
+      "Excel",
+      "Python",
+      "Tableau"
+    ],
+    "location": "remote"
+  },
+  {
+    "title": "Machine Learning Intern",
+    "seniority": "intern",
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "NLP"
+    ],
+    "location": "Pune"
+  }
+]

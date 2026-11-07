@@ -1,0 +1,11 @@
+We are hiring a Senior Backend Engineer to join our payments team in Mumbai.
+You will design APIs in Python and Go, run services on AWS, and mentor junior
+engineers. Required: 6+ years experience, PostgreSQL, Docker, Kubernetes.
+---
+Junior Data Analyst (Remote). Help our growth team build dashboards and answer
+business questions. You should know SQL and Excel, and have basic Python or
+Tableau experience. Fresh graduates welcome.
+---
+Machine Learning Intern at a healthcare startup in Pune. You will help train and
+evaluate models on medical text. Need: Python, PyTorch basics, and curiosity
+about NLP.

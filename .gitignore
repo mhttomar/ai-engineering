@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
+*.egg-info/
+# Vector stores (added from Module 3)
+chroma_db/
+*.faiss
+*.pkl
+.DS_Store
