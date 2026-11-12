@@ -9,6 +9,14 @@ for q in [
     "What is 365 * 24?",
     "In the docs, what is cosine similarity?",
 ]:
-    print("\n=== ", q)
-    result = graph.invoke({"messages": [("user", q)]})
-    print_trace(result["messages"])
+    print("\n===", q)
+    print("USER :", q)
+
+    messages = []
+    for update in graph.stream({"messages": [("user", q)]}, stream_mode="updates"):
+        for node, changes in update.items():
+            print(f"[node ran: {node}]")
+            if isinstance(changes, dict) and "messages" in changes:
+                messages.extend(changes["messages"])
+
+    print_trace(messages)
