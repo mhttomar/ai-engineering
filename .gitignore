@@ -9,3 +9,5 @@ chroma_db/
 *.faiss
 *.pkl
 .DS_Store
+faiss_index/
+qdrant_db/
